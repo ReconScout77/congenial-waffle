@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Waking Up</h3>
+  </div>
+  <div class="panel-body">
+    <p>You wake up in your bed to your alarm blaring loudly.  Crap!  You have to work today and you are notorious for being late!</p>
+  </div>
+  <div class="panel-footer">
+    You: <a routerLink=""><button class="btn btn-info" (click)="playerService.onClick(-10)">Stroke Alarm</button></a>
+    <a routerLink="parking"><button class="btn btn-info" (click)="playerService.onClick(1)">Smash Alarm</button></a>
+    <a routerLink=""><button class="btn btn-info" (click)="playerService.onClick(-5)">Hit Snooze</button></a>
+    <a routerLink="parking"><button class="btn btn-info" (click)="playerService.onClick(5)">Turn Alarm Off</button></a>
+  </div>
+</div>

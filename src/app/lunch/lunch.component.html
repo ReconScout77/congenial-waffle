@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Lunch Break!</h3>
+  </div>
+  <div class="panel-body">
+    <p>You're halfway through the day and ready to eat the cafeteria lady!  What sounds appealing today?</p>
+  </div>
+  <div class="panel-footer">
+    You: <a routerLink="/lunch"><button class="btn btn-info" (click)="playerService.onClick(-15)"></button></a>
+    <a routerLink="/lunch"><button class="btn btn-info" (click)="playerService.onClick(5)"></button></a>
+    <a routerLink="/lunch"><button class="btn btn-info" (click)="playerService.onClick(-5)"></button></a>
+  </div>
+</div>
